@@ -1,0 +1,104 @@
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0px !important;
+}
+.toor-img{
+    height: 60vh;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+    background-position:center;
+    background-size: cover;
+}
+.toor-img img{
+    margin-top: -35px;
+    margin-left: 30px;
+   
+
+}
+h2{
+    /* text-align: center; */
+    /* margin-top: -60px !important; */
+    color: #4a6660 !important;
+    font-size: 70px !important;
+    /* background-color: #4a6660; */
+}
+.toor-details-discription{
+    background-image: url(image/banner-arrow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.toor-details{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    margin-top: 20px;
+
+ 
+}
+
+.contant-ratting-price{
+    display: flex;
+    gap: 10px;
+    
+    align-items: center;
+    font-size: 25px;
+}
+.toor-ratting i{
+    color: #ffb400
+}
+.total-review{
+    font-size: 20px;
+    color: grey;
+}
+.card-price{
+    margin-left: 50px;
+}
+.card-price span , .contant-days-user i{
+    color: #ff5522;
+}
+
+.contant-days-user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.toor-discription{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+.toor-discription h4{
+    font-size: 25px;
+}
+.toor-discription p{
+    /* width: 90%; */
+    margin-top: 20px;
+}
+
+.book-btn{
+    padding: 0.6rem 1rem;
+    color: #fff;
+    background: #ff5522;
+    border-radius: 4px;
+    margin: 20px 0 100px 60px  ;
+}

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=DM+Sans&family=Dancing+Script:wght@500&family=Fredoka&family=Kaushan+Script&family=Merriweather&family=Montserrat&family=Noto+Serif:ital@1&family=Outfit&family=Poppins&family=Sacramento&family=Vujahday+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'DM Sans', sans-serif;
+    
+    /* font-family: 'Montserrat', sans-serif; */
+  }
+  
+  #book-trip{
+    background-color: #ebf1fa;
+    padding: 3rem;
+
+  }
+  .book-trip{
+    background-color: #ecf9ffe6;
+    width: 80%;
+    margin: 3rem auto;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+
+   background-image: url(image/banner-arrow.png);
+   background-repeat: no-repeat;
+   background-position: initial;
+  }
+  h4{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f16d5b;
+  }
+
+  .user-detail-form{
+
+  
+  }
+  .name-email{
+    /* border: 1px solid black; */
+  }
+  .detail{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+  }
+  .input-css{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+  }
+
+  input{
+    width: 65%;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ebf1fa;
+    border-radius: 2px;
+    background-color: #ebf1faba;
+
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.472);
+  }
+  label{
+    margin: 10px 0;
+    padding: 10px;
+    font-size:16px;
+    font-weight: 150;
+  
+  }
+
+  #destinations{
+    
+    height: 35px;
+  
+  }
+
+  select{
+    padding: 5px;
+    background-color: #ebf1faba;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #ebf1fa;
+  }
+
+  .additional-service{
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .additional-service p{
+    font-size: 20px;
+  }
+  .additional-service label{
+    font-size: 15px;
+  }
+  .additional-service input{
+    width: 5%;
+  }
+  
+  .payment-detail{
+    margin-top: 20px;
+  }
+#card-no{
+  width: 40%;
+}
+#expr-date, #cvv{
+  width: 30%;
+}
+
+.btns{
+    /* width: 6rem; */
+    padding: 0.6rem 1rem;
+    font-size: 15px;
+    margin: 25px 10px;
+    border-radius: 3px;
+    background-color:#ebf1fa ;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    
+
+   
+}
+.book-btn{
+  background-image: linear-gradient(to right,#141e30e3,#243B55e3);
+}
+.book-btn:hover{
+  background-image: linear-gradient(to right,#141E30,#243B55);
+}
+
+.btns:hover{
+  
+    box-shadow: 1px 1px 8px 1.5px rgba(167, 166, 166, 0.848);
+   
+}
+.reset-btn{
+  color: #141E30;
+  border: 2px solid #141E30;
+  padding: 0.4rem 1rem;
+}
